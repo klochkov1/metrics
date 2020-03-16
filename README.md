@@ -1,15 +1,21 @@
 # METRICS TASK
 
 This repository contains an entry task for for DevOps training.
-Simple script that displays system metics
+Simple script that displays system metics.
 
 ## Prerequisities
 
-In order to run this container you'll need docker installed.
+In order to run script you'll need docker installed on your system.
 
 * [Windows](https://docs.docker.com/windows/started)
 * [OS X](https://docs.docker.com/mac/started/)
 * [Linux](https://docs.docker.com/linux/started/)
+
+Or python installed on your system.
+
+* [python 3](https://www.python.org/downloads/) 
+* [pip](https://pip.pypa.io/en/stable/installing/)
+
 
 ## Usage
 
@@ -23,7 +29,7 @@ Enter repository directory:
     
 ### Docker
 
-Build an image from the Dockerfile
+Build an image from the Dockerfile:
 
     docker build -t metrics .
 
@@ -36,8 +42,6 @@ You may specify which resource you would like to be displayed using resource env
 ### Direct run
 
 You can also run script direct without container: 
-
-Install [python 3](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/) on your system.
 
 Install dependecies:
 
