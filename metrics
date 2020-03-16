@@ -28,12 +28,12 @@ def get_mem_metrics():
 def main():
     parser = argparse.ArgumentParser(
         description='Prints system metrics.')
-    parser.add_argument('metric', choices=[
+    parser.add_argument('resource', choices=[
                         'cpu', 'mem'], help="Choose the resource")
     args = parser.parse_args()
-    if args.metric == 'cpu':
+    if args.resource == 'cpu':
         print(get_cpu_metrics())
-    elif args.metric == 'mem':
+    elif args.resource == 'mem':
         print(get_mem_metrics())
 
 

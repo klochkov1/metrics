@@ -1,1 +1,1 @@
-# metrics
+Simple script to display some system metics
